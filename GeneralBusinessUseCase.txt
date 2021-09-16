@@ -1,0 +1,41 @@
+THere are a lot of thins ML can do. Here are two typical business applications
+
+1. Identify the trend
+
+a. Given data, find out the trend among the data.
+for example, given the historical housing price in boston market, learn the housing price trend
+b. Given the trend learned and the goal of the trend in the business, find out how long it will take to reach the goal
+for example, given the clinial study time frame, current subject enrolled and 
+the number of subjects required for the study, learn how long it will take to reach the full enrollment.
+
+Identifying the trend, setting the goal and monitoring the goal is the common business
+practice to ensure the business is on the right track.
+
+
+2. Classification(might introduce bias from the learning algorithm)
+
+    Binary Classification: just two class labels. yes or no(true or false)
+    Multi-Class Classification: more than two class labels
+    for example, face recognition. The classfied belong to one among a range of known class
+
+    Multi-Label Classification:refers to those classification tasks that have two or more class labels, 
+    where one or more class labels may be predicted for each example.
+
+    Consider the example of photo classification, where a given photo may have multiple objects 
+    in the scene and a model may predict the presence of multiple known objects in the photo, such as “bicycle,” “apple,” “person,” etc.
+
+
+    the classified may have multiple class label. For example, an appled identified is labeled 
+    as apple and fruit 
+
+    Imbalanced Classification
+    refers to classification tasks where the number of examples in each class is unequally distributed.
+
+    Typically, imbalanced classification tasks are binary classification tasks where the majority of examples in the training dataset belong to the normal class and a minority of examples belong to the abnormal class.
+
+    Examples include:
+
+        Fraud detection.
+        Outlier detection.
+        Medical diagnostic tests.
+
